@@ -13,6 +13,7 @@ gauss_sigma = floor(floor(l * 0.5) * 0.5);
 gauss_filter ...
     = exp(-(-floor(l * 0.5):floor(l * 0.5)).^2*0.5./(gauss_sigma.^2)) ...
     ./(gauss_sigma*sqrt(2*pi));
+gauss_filter = gauss_filter(1:length(lines));
 for ii = 1:length(lines)
     newimage(:,:,:,ii) = imfilter(simage,line(:,:,ii));
 end

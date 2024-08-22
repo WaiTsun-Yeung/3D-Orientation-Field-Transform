@@ -2,7 +2,7 @@
 The MATLAB code of orientation field transform, available for enhancing 3D and 2D curves for segmentation purposes.
 
 # Reference
-This code is distributed under the MIT license, and could be used modified, and distributed for commercial and non-commercial purposes. To use this code, please cite: Yeung, W. T., Cai, X., Liang, Z., & Kang, B. H. (2020). 3D Orientation Field Transform. arXiv preprint arXiv:2010.01453. The authors of the code and the paper are not liable to any damage caused by using this code.
+This code is distributed under the MIT license, and could be used modified, and distributed for commercial and non-commercial purposes. To use this code, please cite: Yeung, W. T., Cai, X., Liang, Z., & Kang, B. H. (2024). 3D orientation field transform. Pattern Analysis and Applications, 27(1), 6. The authors of the code and the paper are not liable to any damage caused by using this code.
 
 # Dependencies
 MATLAB 2010a, MATLAB Image Processing Toolbox
